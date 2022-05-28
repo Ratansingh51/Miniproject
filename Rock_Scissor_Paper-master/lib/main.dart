@@ -41,10 +41,10 @@ class MyApp extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     CircleAvatar(
-                      backgroundImage:AssetImage('Images/dpritik.png'),
+                      backgroundImage:AssetImage(''),
                       radius: 30.0,
                     ),
-                    Text('Developer Details :\nRitik Bhushan Yadav\nB.tech - CSE\nGLA University,Mathura',style: TextStyle(fontFamily: 'OtomanopeeOne'),)
+                    Text('Developer Details :\nAll group members \nB.tech - CSE\nGLA University,Mathura',style: TextStyle(fontFamily: 'OtomanopeeOne'),)
                   ],
                 ),
               ),
@@ -52,28 +52,28 @@ class MyApp extends StatelessWidget {
                 child: ListTile(
                   leading: Icon(Icons.add_call),
                   title: Text('Phone No.',style: TextStyle(fontFamily: 'OtomanopeeOne'),),
-                  subtitle: Text('+916201374668'),
+                  subtitle: Text('+919058238609'),
                 ),
               ),
               Card(
                 child: ListTile(
                   leading: Icon(Icons.email),
                   title: Text('Email',style: TextStyle(fontFamily: 'OtomanopeeOne'),),
-                  subtitle: Text('ritikbhushanyadav@gmail.com'),
+                  subtitle: Text('namans1651@gmail.com.com'),
                 ),
               ),
               Card(
                 child: ListTile(
                   leading: Icon(Icons.account_circle_rounded),
                   title: Text('GitHub',style: TextStyle(fontFamily: 'OtomanopeeOne'),),
-                  subtitle: Text('CodexRitik'),
+                  subtitle: Text('Rock paper scissor'),
                 ),
               ),
               Card(
                 child: ListTile(
                   leading: Icon(Icons.zoom_out_outlined),
                   title: Text('Website',style: TextStyle(fontFamily: 'OtomanopeeOne'),),
-                  subtitle: Text('www.codexritik.site'),
+                  subtitle: Text('www.rock paper scissor site'),
                 ),
               ),
             ],
